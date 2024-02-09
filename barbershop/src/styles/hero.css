@@ -1,0 +1,129 @@
+#hero-container {
+    background-color: #161A30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-headline {
+    font-size: 32px;
+    color: #F0ECE5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.services-container {
+    display: flex;
+    width: 80%;
+    background-color: #F0ECE5;
+    margin-bottom: 10px;
+}
+
+.services-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.hero-image {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 49px 49px 49px 49px;
+}
+
+.services-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-headline {
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #31304D;
+}
+
+.services-text {
+    width: 60%;
+    font-size: 20px;
+    color: #31304D;
+}
+
+
+  
+  .services-button{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #F0ECE5;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    margin-bottom: 20px;
+    background-color: #31304D;
+    border-radius: 8px;
+  }
+  
+  .services-button:hover{
+    letter-spacing: 8px;
+  }
+  
+  @media only screen and (min-width: 1px) and (max-width: 576px){
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .services-text {
+      font-size: 16px;
+      width: 100%;
+    }
+    .services-button {
+      padding: 5px;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .services-headline {
+      margin-bottom: 10px;
+    }
+  }
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .services-text {
+      font-size: 16px;
+      width: 100%;
+    }
+    .services-button {
+      padding: 5px;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .services-headline {
+      margin-bottom: 10px;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+      .services-text {
+        font-size: 16px;
+      }
+      .services-button {
+        padding: 5px;
+        font-size: 20px;
+      }
+      }

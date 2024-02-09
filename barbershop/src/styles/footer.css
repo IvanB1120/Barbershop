@@ -1,0 +1,11 @@
+.footer-container {
+    height: 10vh;
+    background-color: #161A30;
+    border-top: 1px solid #F0ECE5;
+    display: flex;
+    color: #F0ECE5;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+

@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    z-index: 999;
+    color: #F0ECE5;
+    padding-left: 5%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-logo {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 576px){
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    nav {
+        display: none;
+    }
+    }
