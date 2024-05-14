@@ -32,6 +32,16 @@
     .hero-numbers-container {
         flex-wrap: wrap;
         gap: 10px;
+        padding: 10px;
+    }
+    .hero-numbers-number {
+        font-size: 18px;
+        font-weight: 500;
+        color: #161A30;
+    }
+    .hero-numbers-text {
+        color: #31304D;
+        font-size: 16px;
     }
 }
 

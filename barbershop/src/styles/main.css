@@ -49,13 +49,28 @@
 }
 
 @media only screen and (min-width: 1px) and (max-width: 576px){
-
+    .main-container {
+        height: 100svh;
+        width: 100%;
+        position: relative;
+    }
+    .main-button {
+        top: 90%;
+    }
     }
 
 @media only screen and (min-width: 576px) and (max-width: 767px){
-
+    .main-container {
+        height: 100svh;
+        width: 100%;
+        position: relative;
+    }
     }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
-
+    .main-container {
+        height: 100svh;
+        width: 100%;
+        position: relative;
+    }
         }
